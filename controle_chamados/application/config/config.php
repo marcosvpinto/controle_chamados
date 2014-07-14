@@ -25,8 +25,9 @@ $config['base_url']	= '';
 | something else. If you are using mod_rewrite to remove the page set this
 | variable so that it is blank.
 |
+| Removido o contéudo da variável 'index.php' para remover da url
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
